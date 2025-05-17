@@ -10,6 +10,7 @@ define('ELIXWEB_TEXT_DOMAIN', 'elixweb');
 function elixweb_enqueue_scripts()
 {
     wp_enqueue_style('elixweb-style', ELIXWEB_THEME_URI . '/assets/css/style.css', [], ELIXWEB_THEME_VERSION);
+    wp_enqueue_style('elixweb-custom-style', ELIXWEB_THEME_URI . '/style.css', [], ELIXWEB_THEME_VERSION);
     wp_enqueue_script('jquery');
     wp_enqueue_script('elixweb-script', ELIXWEB_THEME_URI . '/assets/js/main.js', ['jquery'], ELIXWEB_THEME_VERSION, true);
 }
