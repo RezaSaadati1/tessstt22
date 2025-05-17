@@ -23,3 +23,15 @@ Text Domain: elixweb
   justify-content: space-around;
   flex-direction: row;
 }
+.col1{
+  display: flex;
+}
+.col2{
+  display: flex;
+}
+.col3{
+  display: flex;
+}
+.col4{
+  display: flex;
+}
