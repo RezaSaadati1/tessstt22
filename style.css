@@ -15,11 +15,11 @@ Text Domain: elixweb
   padding: 15px;
   text-align: center;
   position: absolute;
-  flex-direction: column;
   bottom: 0;
 }
 
 .footer-main{
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
 }
