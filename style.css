@@ -21,5 +21,5 @@ Text Domain: elixweb
 .footer-main{
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
+  flex-direction: row;
 }
