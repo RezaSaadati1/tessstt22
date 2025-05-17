@@ -5,7 +5,7 @@ if (!defined('ABSPATH'))
 <footer>
     <div class="footer-container">
         <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> - All Rights Reserved.</p>
-        peyman
+        elixweb
     </div>
 </footer>
 <?php wp_footer(); ?>
